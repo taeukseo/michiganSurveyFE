@@ -7,7 +7,6 @@ plots time series of average forecast errors and
 by Taeuk Seo 2025-12-15
 
 */
-
 use ./files/downloaded/fred_nber, clear
 merge 1:1 modate using ./files/output/forecastErrors
 keep if _merge == 3

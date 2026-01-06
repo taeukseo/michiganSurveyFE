@@ -3,7 +3,6 @@
     Main file to calculate forecast errors using the Michigan Survey of Consumers.
 */
 
-/*
 do ./codes/000_installPackages.do
 do ./codes/00_createVariablesAggregate.do
 do ./codes/01_createVariablesSOC.do
